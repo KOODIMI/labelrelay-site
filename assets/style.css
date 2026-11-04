@@ -33,7 +33,12 @@
 }
 
 html {
-  scroll-padding-top: calc(var(--header-h) + 16px);
+  scroll-padding-top: var(--header-h);
+}
+
+/* Jump targets: the heading lands just below the sticky header */
+h2[id] {
+  scroll-margin-top: 28px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
