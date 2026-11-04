@@ -9,6 +9,7 @@
       name="description"
       content="LabelRelay maakt per Shopify-bestelling een PostNL-label via MyParcel, print het via PrintNode en zet de bestelling op afgehandeld met track en trace."
     />
+    <meta name="theme-color" content="#0e6e62" />
     <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="assets/style.css" />
     <link rel="alternate" hreflang="nl" href="https://labelrelay.nl/" />
@@ -21,9 +22,9 @@
         <a class="brand" href="./"><img src="assets/icon.svg" alt="" />LabelRelay</a>
         <nav class="site-nav" aria-label="Hoofdmenu">
           <a class="hide-sm" href="#hoe-het-werkt">Hoe het werkt</a>
-          <a class="hide-sm" href="#prijzen">Prijzen</a>
-          <a href="#contact">Contact</a>
+          <a href="#prijzen">Prijzen</a>
           <a class="lang" href="en/" hreflang="en" lang="en">EN</a>
+          <a class="button small" href="#contact">Contact</a>
         </nav>
       </div>
     </header>
@@ -31,15 +32,42 @@
     <main id="main">
       <div class="hero">
         <div class="wrap">
-          <h1>Elke bestelling een label, geprint en afgehandeld.</h1>
-          <p>
-            LabelRelay maakt per Shopify-bestelling een PostNL-label in je MyParcel-account, print
-            het op je labelprinter en zet de bestelling op afgehandeld zodra PostNL het pakket
-            scant.
-          </p>
-          <div class="actions">
-            <a class="button" href="mailto:info@labelrelay.nl">Mail ons</a>
-            <span class="note">Binnenkort in de Shopify App Store.</span>
+          <div>
+            <span class="eyebrow">Volledig automatisch</span>
+            <h1>Elke bestelling een label, geprint en afgehandeld.</h1>
+            <p>
+              LabelRelay maakt per Shopify-bestelling een PostNL-label in je MyParcel-account, print
+              het op je labelprinter en zet de bestelling op afgehandeld zodra PostNL het pakket
+              scant.
+            </p>
+            <div class="actions">
+              <a class="button" href="mailto:info@labelrelay.nl">Mail ons</a>
+              <span class="note">Binnenkort in de Shopify App Store.</span>
+            </div>
+          </div>
+          <div
+            class="flow"
+            role="img"
+            aria-label="Voorbeeld: een bestelling waarvoor het label is gemaakt, geprint en afgehandeld."
+          >
+            <div class="flow-head">Bestelling #1042 <span>Voorbeeld</span></div>
+            <ol>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                <div><strong>Label gemaakt</strong><small>PostNL via MyParcel</small></div>
+                <span class="auto">Automatisch</span>
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                <div><strong>Geprint</strong><small>Op je labelprinter</small></div>
+                <span class="auto">Automatisch</span>
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                <div><strong>Afgehandeld</strong><small>Track en trace naar je klant</small></div>
+                <span class="auto">Automatisch</span>
+              </li>
+            </ol>
           </div>
         </div>
       </div>
@@ -47,44 +75,45 @@
       <section id="hoe-het-werkt">
         <div class="wrap">
           <h2>Hoe het werkt</h2>
-          <p class="lead">Na het instellen gaat het vanzelf.</p>
+          <p class="lead">Drie stappen, volledig automatisch. Je stelt het één keer in.</p>
           <div class="grid">
             <div class="card">
               <span class="step-num">1</span>
-              <h3>Label maken</h3>
+              <h3>Label maken<span class="auto">Automatisch</span></h3>
               <p>Er komt een bestelling binnen en LabelRelay maakt het label in je MyParcel-account.</p>
             </div>
             <div class="card">
               <span class="step-num">2</span>
-              <h3>Printen</h3>
+              <h3>Printen<span class="auto">Automatisch</span></h3>
               <p>Het label komt via PrintNode uit je eigen labelprinter.</p>
             </div>
             <div class="card">
               <span class="step-num">3</span>
-              <h3>Afhandelen</h3>
+              <h3>Afhandelen<span class="auto">Automatisch</span></h3>
               <p>
                 PostNL scant het pakket en de bestelling staat op afgehandeld, met track en trace
                 voor je klant.
               </p>
             </div>
           </div>
+          <p class="manual"><strong>Jij pakt in en plakt het label erop.</strong> De rest gaat vanzelf.</p>
         </div>
       </section>
 
-      <section>
+      <section class="tint">
         <div class="wrap">
           <h2>Jij houdt de regie</h2>
           <p class="lead">LabelRelay volgt jouw regels, niet andersom.</p>
-          <div class="grid">
-            <div class="card">
+          <div class="features">
+            <div>
               <h3>Verzendregels</h3>
               <p>Kies pakket en opties per bestemming, gewicht, bedrag of productgroep.</p>
             </div>
-            <div class="card">
+            <div>
               <h3>Eerst proberen</h3>
               <p>Zie wat LabelRelay zou doen voordat er een echt label wordt gemaakt.</p>
             </div>
-            <div class="card">
+            <div>
               <h3>Seintje bij problemen</h3>
               <p>Lukt een label niet, dan zie je het in de app en kun je een mail krijgen.</p>
             </div>
@@ -99,6 +128,7 @@
           <div class="grid">
             <div class="card plan">
               <h3>Starter</h3>
+              <p class="for">Voor een kleine winkel</p>
               <p class="price">€ 9 <small>per 30 dagen</small></p>
               <ul>
                 <li>100 labels inbegrepen</li>
@@ -106,8 +136,9 @@
                 <li>Hooguit € 41 extra per 30 dagen</li>
               </ul>
             </div>
-            <div class="card plan featured">
+            <div class="card plan">
               <h3>Growth</h3>
+              <p class="for">Voor een groeiende winkel</p>
               <p class="price">€ 19 <small>per 30 dagen</small></p>
               <ul>
                 <li>500 labels inbegrepen</li>
@@ -117,6 +148,7 @@
             </div>
             <div class="card plan">
               <h3>Business</h3>
+              <p class="for">Voor grote aantallen</p>
               <p class="price">€ 49 <small>per 30 dagen</small></p>
               <ul>
                 <li>Onbeperkt labels</li>
@@ -124,42 +156,49 @@
               </ul>
             </div>
           </div>
-          <details>
-            <summary>Wat je nog meer moet weten</summary>
-            <ul>
-              <li>Je betaalt via je Shopify-factuur, in euro. Overstappen of opzeggen kan altijd.</li>
-              <li>LabelRelay meldt het zodra een ander abonnement voor jou goedkoper is.</li>
-              <li>
-                De labels betaal je aan MyParcel en het printen aan PrintNode, volgens hun eigen
-                voorwaarden.
-              </li>
-            </ul>
-          </details>
-          <details>
-            <summary>Wat je nodig hebt</summary>
-            <ul>
-              <li>Een Shopify-winkel die vanuit Nederland verstuurt.</li>
-              <li>Een eigen MyParcel.nl-account.</li>
-              <li>
-                Een eigen PrintNode-account, met de PrintNode-client op de computer waar je
-                labelprinter aan hangt.
-              </li>
-              <li>
-                Labels gaan naar Nederland, België en de rest van de EU. Bestellingen die een
-                douaneaangifte nodig hebben, zet LabelRelay voor je klaar om zelf af te handelen.
-              </li>
-            </ul>
-          </details>
+          <div class="more">
+            <details>
+              <summary>Wat je nog meer moet weten</summary>
+              <ul>
+                <li>Je betaalt via je Shopify-factuur, in euro. Overstappen of opzeggen kan altijd.</li>
+                <li>LabelRelay meldt het zodra een ander abonnement voor jou goedkoper is.</li>
+                <li>
+                  De labels betaal je aan MyParcel en het printen aan PrintNode, volgens hun eigen
+                  voorwaarden.
+                </li>
+              </ul>
+            </details>
+            <details>
+              <summary>Wat je nodig hebt</summary>
+              <ul>
+                <li>Een Shopify-winkel die vanuit Nederland verstuurt.</li>
+                <li>Een eigen MyParcel.nl-account.</li>
+                <li>
+                  Een eigen PrintNode-account, met de PrintNode-client op de computer waar je
+                  labelprinter aan hangt.
+                </li>
+                <li>
+                  Labels gaan naar Nederland, België en de rest van de EU. Bestellingen die een
+                  douaneaangifte nodig hebben, zet LabelRelay voor je klaar om zelf af te handelen.
+                </li>
+              </ul>
+            </details>
+          </div>
         </div>
       </section>
 
-      <section id="contact" class="contact">
+      <div id="contact" class="cta-band">
         <div class="wrap">
-          <h2>Contact</h2>
-          <p class="lead">Vragen, of wil je meedoen zodra LabelRelay beschikbaar is? Mail ons.</p>
-          <a class="mail" href="mailto:info@labelrelay.nl">info@labelrelay.nl</a>
+          <div>
+            <h2>Vragen of meedoen?</h2>
+            <p>
+              Mail naar <a class="mail" href="mailto:info@labelrelay.nl">info@labelrelay.nl</a>, je
+              hoort snel van ons.
+            </p>
+          </div>
+          <a class="button" href="mailto:info@labelrelay.nl">Mail ons</a>
         </div>
-      </section>
+      </div>
     </main>
 
     <footer class="site-footer">
