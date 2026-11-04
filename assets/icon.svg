@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <title>LabelRelay</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E6E62"/>
+      <stop offset="1" stop-color="#084A42"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <g transform="translate(250 300)">
+    <path d="M0 40 Q0 0 40 0 H470 L600 130 V560 Q600 600 560 600 H40 Q0 600 0 560 Z" fill="#FFFFFF"/>
+    <path d="M470 0 V100 Q470 130 500 130 H600 Z" fill="#CFE8E3"/>
+    <rect x="70" y="90" width="300" height="34" rx="17" fill="#0B5D53"/>
+    <rect x="70" y="160" width="220" height="34" rx="17" fill="#9CCFC6"/>
+    <g fill="#0B5D53">
+      <rect x="70" y="300" width="24" height="200"/>
+      <rect x="118" y="300" width="12" height="200"/>
+      <rect x="152" y="300" width="36" height="200"/>
+      <rect x="212" y="300" width="12" height="200"/>
+      <rect x="246" y="300" width="24" height="200"/>
+      <rect x="294" y="300" width="12" height="200"/>
+      <rect x="328" y="300" width="36" height="200"/>
+      <rect x="388" y="300" width="12" height="200"/>
+    </g>
+  </g>
+  <circle cx="850" cy="830" r="190" fill="#F2B640"/>
+  <path d="M760 830 H920 M870 760 L940 830 L870 900" fill="none" stroke="#084A42" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
