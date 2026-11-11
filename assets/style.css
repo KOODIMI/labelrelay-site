@@ -242,7 +242,22 @@ summary:focus-visible {
   gap: 12px 18px;
 }
 
+.hero-mail {
+  color: #ffffff;
+  font-weight: 650;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.45);
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+.hero-mail:hover {
+  color: #ffffff;
+  text-decoration-color: var(--amber);
+}
+
 .note {
+  flex-basis: 100%;
   font-size: 0.95rem;
   color: #d4ebe6;
 }
